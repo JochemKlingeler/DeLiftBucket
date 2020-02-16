@@ -1,0 +1,29 @@
+{
+    "homepage": "https://github.com/GrangerHub/tremulous",
+    "description": "GrangerHub build of Tremulous, an aliens vs humans fps with rts-elements, based on the ioquake3 engine",
+    "version": "1.3.0-alpha.0.14",
+    "license": "CC BY-SA 2.5",
+    "extract_dir": "Tremulous",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GrangerHub/tremulous/releases/download/v1.3.0-alpha.0.14/release-mingw32-x86_64.zip",
+            "hash": "1BAAFDC4298A8CE38405B4465EC883FD1E7C3EDA4B91869B7C1E32436A1C5D0E",
+            "shortcuts": [
+                [
+                    "tremulous.exe",
+                    "Tremulous"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/GrangerHub/tremulous/releases/download/v1.3.0-alpha.0.14/release-mingw32-x86.zip",
+            "hash": "A74C51C4582BA52E3200427E252F6806D92CA1E3EE155BEF4375FB564B63ACF0",
+            "shortcuts": [
+                [
+                    "tremulous.exe",
+                    "Tremulous"
+                ]
+            ]
+        }
+    }
+}
